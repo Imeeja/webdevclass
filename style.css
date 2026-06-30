@@ -7,24 +7,25 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 nav.navbar {
-    background-color: #0b132b;
+    background-color: #fca311;
 }
 a.nav-link {
     color: #e5e5e5;
 }
 
 :root {
-    --redorange : linear-gradient(135deg, #fca311, #f25c54);
+    --redorange : linear-gradient(135deg, #1e3065, #0b132b);
 }
 a.nav-btn {
     background: var(--redorange);
-    color: #0b132b;
+    color: #fca311;
     font-weight: bold;
 }
 a.nav-btn:hover {
     transform: scale(1.1);
     margin-left: 5px;
-    background: linear-gradient(135deg, #e69500, #d94b45);
+    background: linear-gradient(135deg, #192753, #050914);
+    color: #fca311;
 }
 .hero {
     background-color: #fca311;
