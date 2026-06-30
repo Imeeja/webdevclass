@@ -26,3 +26,7 @@ a.nav-btn:hover {
     margin-left: 5px;
     background: linear-gradient(135deg, #e69500, #d94b45);
 }
+.hero {
+    background-color: #fca311;
+    
+}
