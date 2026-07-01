@@ -11,7 +11,7 @@ nav.navbar {
     background-color: #fca311;
 }
 a.nav-link {
-    color: #e5e5e5;
+    color: #FFFFFF;
 }
 
 :root {
@@ -100,4 +100,21 @@ background-image: url(pics/wave-haikei.svg);
     float: right;
     text-decoration: none;
     font-size: 30px;
+}
+.serviceicon {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        #fca311,
+        #a92c0a,
+        #fca311
+    );
+    background-size: 200% 100%;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: gradientMove 3s linear infinite alternate;
 }
