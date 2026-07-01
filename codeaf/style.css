@@ -161,3 +161,17 @@ background-image: url(pics/wave-haikei.svg);
 .pictwin {
     padding-top: 25%;
 }
+.testimonial {
+    background: #ff9d0083;
+    display: inline-block;
+    color: #fca311;
+}
+hr {
+    color: #c2c2c2;
+}
+#five {
+    color: #c2c2c2;
+}
+i.star {
+    color: #fca311;
+}
