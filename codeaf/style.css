@@ -139,7 +139,7 @@ background-image: url(pics/wave-haikei.svg);
 .floatbox {
     background: #fca311;
     padding: 2rem;
-    margin-top: 50%;
+/*margin-top: 50%;*/
   box-shadow:
     0 0 10px rgba(252, 162, 17, 0.578),
     0 0 25px rgba(252, 163, 17, 0.08);
@@ -174,4 +174,36 @@ hr {
 }
 i.star {
     color: #fca311;
+}
+.questionmark {
+        font-size: 30px;
+    color: white;
+    display: inline-block;
+    animation: spinBackAndForth 2s ease-in-out infinite;
+    padding-bottom: 1rem;
+}
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed),
+.accordion-body {
+    background: transparent;
+}
+.accordion-button {
+    color: #fca311;
+}
+.accordion-button,
+.accordion-button:not(.collapsed) {
+       background: linear-gradient(
+        90deg,
+        #0d6efd,
+        #0b132b,
+        #0d6efd
+    );
+    color: white;
+}
+.testimonialcard {
+    border: 1px, solid, #c2c2c2;
+    border-radius: 40px;
+    padding: 1rem;
+    
 }
