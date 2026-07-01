@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #0b132b;
+    font-family: 'Poppins', sans-serif;
+}
+nav.navbar {
+    background-color: #fca311;
+}
+a.nav-link {
+    color: #e5e5e5;
+}
+
+:root {
+    --redorange : linear-gradient(135deg, #1e3065, #0b132b);
+}
+a.nav-btn {
+    background: var(--redorange);
+    color: #fca311;
+    font-weight: bold;
+}
+a.nav-btn:hover {
+    transform: scale(1.1);
+    margin-left: 5px;
+    background: linear-gradient(135deg, #192753, #050914);
+    color: #fca311;
+}
+.hero {
+    background-color: #fca311;
+    
+}
+.divider {
+    aspect-ratio: 960/240;
+    
+    background: no-repeat center;
+    background-size: cover;
+
+}
+.wave {
+background-image: url(pics/wave-haikei.svg);
+}
+
+#typed {
+    color: #0b132b
+}
+.hero {
+
+    font-weight: bolder;
+}
+.grad-text {
+    font-weight: bold;
+    background: linear-gradient(
+        90deg,
+        #0b132b,
+        #0000ff,
+        #0b132b
+    );
+    background-size: 200% 100%;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: gradientMove 3s linear infinite alternate;
+}
+
+@keyframes gradientMove {
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
+.playicon {
+    font-size: 35px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.7);
+}
+
+.modal:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+}
+
+.close {
+    float: right;
+    text-decoration: none;
+    font-size: 30px;
+}
