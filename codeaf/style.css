@@ -207,3 +207,20 @@ i.star {
     padding: 1rem;
     
 }
+.formbadge {
+    background: #0f1a39;
+}
+.cashicon{
+     font-size: 30px;
+    color: white;
+    display: inline-block;
+    padding-top: 4rem;
+    animation: spinBackAndForth 2s ease-in-out infinite;
+}
+.btn-block:hover {
+background: #0949a8;
+    transform: scale(1.1);
+}
+.price {
+    color: #fca311;
+}
