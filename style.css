@@ -42,3 +42,10 @@ a.nav-btn:hover {
 .wave {
 background-image: url(/codeaf/pics/wave-haikei.svg);
 }
+
+#typed {
+    color: #0b132b
+}
+.hero {
+    font-weight: bolder;
+}
