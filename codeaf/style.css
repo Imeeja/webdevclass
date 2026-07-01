@@ -118,3 +118,30 @@ background-image: url(pics/wave-haikei.svg);
 
     animation: gradientMove 3s linear infinite alternate;
 }
+.box-icon {
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    animation: spinBackAndForth 2s ease-in-out infinite;
+}
+
+@keyframes spinBackAndForth {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(-25deg);
+    }
+}
+.floatbox {
+    background: #fca311;
+    padding: 2rem;
+    margin-top: 50%;
+}
+.floatbox1 {
+        background: #0D6EFD;
+        padding: 2rem;
+}
